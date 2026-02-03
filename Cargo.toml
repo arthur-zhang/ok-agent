@@ -1,2 +1,5 @@
 [workspace]
 members = ["crates/*", "server", ]
+
+[workspace.dependencies]
+common={path="crates/common"}
